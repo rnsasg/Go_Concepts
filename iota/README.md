@@ -2,6 +2,16 @@
 ## iota 
 The “iota” identifier is used to represent integer based constants in Go, and is a convenient way to declare a sequence of constants, while keeping the code readable
 
+## Examples 
+- [Normal Constant](1_normal_constant.go)
+- [Multiple IOTA](2_multiple_iota.go)
+- [Single IOTA](3_single_iota.go)
+- [Start Non-Zero](4_Non_Zero_Start.go)
+- [Skip in between](5_Skiping_Values.go)
+- [Custom Math Operation](6_Custom_Math_Op.go)
+- [Left Shift](7_left_shift.go)
+- [Reset IOTA](8_reset_itoa.go)
+
 ## Why Is Iota Useful
 
 Using iota is a more readable and idiomatic way to declare arbitrary constants or enums.
