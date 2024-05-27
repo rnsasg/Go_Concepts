@@ -10,7 +10,8 @@ func main() {
 // In this case, the named return value i is incremented once the function completes,
 // but before the value is returned to the calling statement in the main function.
 
-func zeroOrOne() (i int) {
+func zeroOrOne() int {
+	var i int
 	defer func() {
 		i++
 	}()

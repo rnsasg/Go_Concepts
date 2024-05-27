@@ -9,13 +9,15 @@ func count() int {
 	return i
 }
 func main() {
-	defer printCount()
+	defer func(int) {
+		// count()
+	}(count())
 	fmt.Println("current count:", count())
 }
 
-func printCount() {
-	fmt.Println("count:", count())
-}
+// func printCount() {
+// 	fmt.Println("count:", count())
+// }
 
 // $ Output:
 // $ go run defer_argument_evalution.go
