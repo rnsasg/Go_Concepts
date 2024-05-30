@@ -36,5 +36,13 @@ Queuing pattern allows us to process n number of items at a time.
 <picuture><img src="Queuing/queuing.png"></img>
 </picture>
 
+## Additional patterns
+Some additional patterns that might be useful to know:
+
+* Tee channel
+* Bridge channel
+* Ring buffer channel
+* Bounded parallelism
+
 ## References 
 1. https://www.karanpratapsingh.com/blog/learn-go-the-complete-course
