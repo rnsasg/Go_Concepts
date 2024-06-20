@@ -110,6 +110,19 @@ A channel is a communications pipe between goroutines. Things go in one end and 
 
 ## Embedding [link](https://tour.ardanlabs.com/tour/eng/embedding/1)
 
+## Go Garbage Collection
+
+1. https://medium.com/@souravchoudhary0306/exploring-the-inner-workings-of-garbage-collection-in-golang-tricolor-mark-and-sweep-e10eae164a12
+
+2. https://medium.com/@souravchoudhary0306/under-the-hood-exploring-the-inner-workings-of-garbage-collection-in-golang-95b50bc8ce1d
+
+3. https://medium.com/safetycultureengineering/an-overview-of-memory-management-in-go-9a72ec7c76a8
+
+## Go Goroutine Schdeuling 
+
+1. https://medium.com/@sanilkhurana7/understanding-the-go-scheduler-and-looking-at-how-it-works-e431a6daacf
+
+
 ## Important Concepts
 
 1. [decoupling](https://tour.ardanlabs.com/tour/eng/composition-decoupling/1)
