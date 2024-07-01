@@ -49,6 +49,6 @@ func make_vs_new_slice() {
 	*p = make([]int, 100, 100)
 
 	// Idiomatic:
-	v := make([]int, 100)
+	// v := make([]int, 100)
 
 }

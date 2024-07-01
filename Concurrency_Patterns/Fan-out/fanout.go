@@ -13,14 +13,14 @@ func main() {
 
 	for {
 		select {
-		case value := <-out1:
-			fmt.Println("Output 1 go", value)
-		case value := <-out2:
-			fmt.Println("Output 2 go", value)
-		case value := <-out3:
-			fmt.Println("Output 3 go", value)
-		case value := <-out4:
-			fmt.Println("Output 4 go", value)
+		case val1 := <-out1:
+			fmt.Println("Output 1 go", val1)
+		case val2 := <-out2:
+			fmt.Println("Output 2 go", val2)
+		case val3 := <-out3:
+			fmt.Println("Output 3 go", val3)
+		case val4 := <-out4:
+			fmt.Println("Output 4 go", val4)
 		}
 	}
 
